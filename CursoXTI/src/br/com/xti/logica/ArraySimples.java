@@ -10,6 +10,8 @@ public class ArraySimples {
 		impares[2] = 5;
 		impares[3] = 7;
 		impares[4] = 9;
+		
+		String[] paises = {"Brasil", "Argentina", "Uruguai", "Paraguai"};
 	}
 
 }
