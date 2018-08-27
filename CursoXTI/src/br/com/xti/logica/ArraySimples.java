@@ -29,6 +29,10 @@ public class ArraySimples {
 		Double[] valores = {12.35, 3456.3456};
 		System.out.println(valores[0].doubleValue());
 		
+		String[] uma = {"Ricardo", "Sandra"};
+		System.out.println(uma[0]);
+		System.out.println(uma.length);
+		
 	}
 
 }
