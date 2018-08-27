@@ -8,6 +8,13 @@ public class DesafioFebonacci {
 		int proximo = 1;
 		
 		System.out.println(anterior);
+		
+		while(proximo < 50) {
+			
+			System.out.println(proximo);
+			proximo = proximo + anterior;
+			anterior = proximo - anterior;
+			
+		}
 	}
-
 }
