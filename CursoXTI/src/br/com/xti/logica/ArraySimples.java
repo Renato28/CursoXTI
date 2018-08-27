@@ -61,6 +61,10 @@ public class ArraySimples {
 		cores.add("Azul");
 		cores.add(0, "Vermelho");
 		System.out.println(cores.toString());
+		
+		System.out.println("Tamanho: " + cores.size());
+		System.out.println("Elemento:" + cores.get(2));
+		System.out.println("Indice Branco: " + cores.indexOf("Branco"));
 	}
 
 }
