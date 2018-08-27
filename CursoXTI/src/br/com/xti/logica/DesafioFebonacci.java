@@ -6,7 +6,8 @@ public class DesafioFebonacci {
 		
 		int anterior = 0;
 		int proximo = 1;
-
+		
+		System.out.println(anterior);
 	}
 
 }
