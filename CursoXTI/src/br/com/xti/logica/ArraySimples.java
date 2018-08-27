@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * 
+ * @author Renato Nobrega
+ *
+ */
 public class ArraySimples {
 
 	public static void main(String[] args) {
