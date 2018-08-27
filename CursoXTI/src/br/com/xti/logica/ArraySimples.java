@@ -67,6 +67,9 @@ public class ArraySimples {
 		System.out.println("Indice Branco: " + cores.indexOf("Branco"));
 		
 		cores.remove("Branco");
+		
+		System.out.println("Tem Amarelo? " + cores.contains("Amarelo"));
+		System.out.println("Tem Cinza? " + cores.contains("Cinza"));
 	}
 
 }
