@@ -1,5 +1,6 @@
 package br.com.xti.logica;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class JogoDado {
@@ -9,6 +10,9 @@ public class JogoDado {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Qual o seu palpite?");
 		int palpite = entrada.nextInt();
+		
+		Random r = new Random();
+		int dado = r.nextInt(6)+1;
 	}
 
 }
