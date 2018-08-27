@@ -23,6 +23,7 @@ public class ArraySimples {
 		System.out.println(Arrays.toString(paises));
 		
 		System.out.println(paises[0]);
+		System.out.println(impares.length);
 		
 	}
 
