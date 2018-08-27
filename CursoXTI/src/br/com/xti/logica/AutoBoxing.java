@@ -15,6 +15,14 @@ public class AutoBoxing {
 		/*Integer x = 555;
 		x++; //desempacota, incrementa e re-empacota
 		System.out.println(x.intValue());*/
+		
+		//codigo comentado
+		
+		/*Boolean v = new Boolean("true");
+		if(v.booleanValue()) {
+			
+			System.out.println(v);
+		}*/
 	}
 
 }
