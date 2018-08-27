@@ -3,6 +3,11 @@ package br.com.xti.logica;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Renato Nobrega
+ *
+ */
 public class AtalhoEclipse {
 	
 	@SuppressWarnings("unused")
