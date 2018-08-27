@@ -1,6 +1,7 @@
 package br.com.xti.logica;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class ArraySimples {
 
@@ -38,6 +39,10 @@ public class ArraySimples {
 		System.out.println(duas.length);
 		System.out.println(duas[0].length);
 		System.out.println(duas[1].length);
+		
+		String[] faces = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Dama", "Valete", "Reis"};
+		String[] naipes = {"Espada", "Paus", "Copas", "Ouros"};
+		
 		
 	}
 
