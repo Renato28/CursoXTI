@@ -1,5 +1,7 @@
 package br.com.xti.logica;
 
+import java.util.Arrays;
+
 public class ArraySimples {
 
 	public static void main(String[] args) {
@@ -12,6 +14,7 @@ public class ArraySimples {
 		impares[4] = 9;
 		
 		String[] paises = {"Brasil", "Argentina", "Uruguai", "Paraguai"};
+		System.out.println(Arrays.toString(paises));
 	}
 
 }
