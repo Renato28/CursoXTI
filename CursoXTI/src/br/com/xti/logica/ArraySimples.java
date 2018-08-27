@@ -45,6 +45,9 @@ public class ArraySimples {
 		
 		Random r = new Random();
 		
+		int indiceFace = r.nextInt(faces.length);
+		String face = faces[indiceFace];
+		
 	}
 
 }
