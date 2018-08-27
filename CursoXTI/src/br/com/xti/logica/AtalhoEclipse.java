@@ -33,7 +33,8 @@ public class AtalhoEclipse {
 
 	public static void main(String[] args) {
 		
-		
+		//executando
+		System.out.println();
 	}
 
 }
