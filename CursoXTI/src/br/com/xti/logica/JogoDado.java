@@ -13,6 +13,9 @@ public class JogoDado {
 		
 		Random r = new Random();
 		int dado = r.nextInt(6)+1;
+		
+		System.out.println("Palpite: " + palpite);
+		System.out.println("Dado: " + dado);
 	}
 
 }
