@@ -1,5 +1,10 @@
 package br.com.xti.logica;
 
+/**
+ * 
+ * @author Renato Nobrega
+ *
+ */
 public class AutoBoxing {
 
 	public static void main(String[] args) {
