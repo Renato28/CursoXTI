@@ -13,6 +13,10 @@ public class IMC {
 		double alturaEmMetros = Double.parseDouble(altura);
 		double imc = pesoEmQuilograma / (alturaEmMetros * alturaEmMetros);
 		
+		String msg = (imc >= 20 && imc <= 25 ) ? "Peso Ideal" : "Fora do peso ideal";
+		System.out.println("IMC: " + imc);
+		System.out.println(msg);
+		
 	}
 
 }
