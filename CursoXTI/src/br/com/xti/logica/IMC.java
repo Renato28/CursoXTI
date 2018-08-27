@@ -9,6 +9,10 @@ public class IMC {
 		String peso = JOptionPane.showInputDialog("Qual o seu peso em quilogramas?");
 		String altura = JOptionPane.showInputDialog("Qual sua altura em metros?");
 		
+		double pesoEmQuilograma = Double.parseDouble(peso);
+		double alturaEmMetros = Double.parseDouble(altura);
+		double imc = pesoEmQuilograma / (alturaEmMetros * alturaEmMetros);
+		
 	}
 
 }
