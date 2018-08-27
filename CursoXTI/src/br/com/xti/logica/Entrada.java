@@ -15,7 +15,6 @@ public class Entrada {
 		String nome = s.nextLine();
 		System.out.println("Bem vindo " + nome);
 
-
 	}
 
 }
