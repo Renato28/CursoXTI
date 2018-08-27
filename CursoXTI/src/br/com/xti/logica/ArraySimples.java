@@ -24,6 +24,7 @@ public class ArraySimples {
 		
 		System.out.println(paises[0]);
 		System.out.println(impares.length);
+		System.out.println(impares[2]);
 		
 	}
 
