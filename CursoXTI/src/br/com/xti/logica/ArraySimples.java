@@ -33,6 +33,12 @@ public class ArraySimples {
 		System.out.println(uma[0]);
 		System.out.println(uma.length);
 		
+		String[][] duas = {{"Ricardo", "M", "DF"},{"Sandra", "F", "MG"}};
+		System.out.println(duas[1][0]);
+		System.out.println(duas.length);
+		System.out.println(duas[0].length);
+		System.out.println(duas[1].length);
+		
 	}
 
 }
