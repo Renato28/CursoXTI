@@ -9,6 +9,12 @@ public class AutoBoxing {
 		a++; //incrementa
 		x = new Integer(a); //re-empacota
 		System.out.println(x.intValue());
+		
+		//codigo comentado
+		
+		/*Integer x = 555;
+		x++; //desempacota, incrementa e re-empacota
+		System.out.println(x.intValue());*/
 	}
 
 }
