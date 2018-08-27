@@ -48,6 +48,9 @@ public class ArraySimples {
 		int indiceFace = r.nextInt(faces.length);
 		String face = faces[indiceFace];
 		
+		int indiceNaipe = r.nextInt(naipes.length);
+		String naipe = naipes[indiceNaipe];
+		
 	}
 
 }
