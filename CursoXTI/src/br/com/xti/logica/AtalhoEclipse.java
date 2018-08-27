@@ -16,6 +16,7 @@ public class AtalhoEclipse {
 	public AtalhoEclipse() {
 		
 		//criacao da classe Scanner
+		@SuppressWarnings("resource")
 		Scanner leitor = new Scanner(System.in);
 		leitor.nextLine();
 		
