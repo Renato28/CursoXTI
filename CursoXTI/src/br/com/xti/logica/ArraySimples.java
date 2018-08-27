@@ -51,6 +51,8 @@ public class ArraySimples {
 		int indiceNaipe = r.nextInt(naipes.length);
 		String naipe = naipes[indiceNaipe];
 		
+		String carta = face + " " + naipe;
+		System.out.println(carta);		
 	}
 
 }
