@@ -1,5 +1,6 @@
 package br.com.xti.logica;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AtalhoEclipse {
@@ -15,6 +16,19 @@ public class AtalhoEclipse {
 		
 		//criando um array de inteiros
 		int[] array = {1,2,3,4};
+		
+		//criando um for
+		for(int i = 0; i < array.length; i++) {
+			
+		}
+		
+		//criando um ArrayList de String
+		ArrayList<String> lista = new ArrayList<String>();
+		
+		//criando um for
+		for(String string: lista) {
+			
+		}
 	}
 
 	public static void main(String[] args) {
