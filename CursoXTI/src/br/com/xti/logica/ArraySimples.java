@@ -1,5 +1,6 @@
 package br.com.xti.logica;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -52,7 +53,9 @@ public class ArraySimples {
 		String naipe = naipes[indiceNaipe];
 		
 		String carta = face + " " + naipe;
-		System.out.println(carta);		
+		System.out.println(carta);
+		
+		ArrayList<String> cores = new ArrayList<>();
 	}
 
 }
