@@ -56,6 +56,11 @@ public class ArraySimples {
 		System.out.println(carta);
 		
 		ArrayList<String> cores = new ArrayList<>();
+		cores.add("Amarelo");
+		cores.add("Branco");
+		cores.add("Azul");
+		cores.add(0, "Vermelho");
+		System.out.println(cores.toString());
 	}
 
 }
