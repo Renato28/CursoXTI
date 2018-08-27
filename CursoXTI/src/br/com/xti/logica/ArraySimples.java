@@ -6,6 +6,7 @@ public class ArraySimples {
 
 	public static void main(String[] args) {
 		
+		
 		int[] impares = new int[5];
 		impares[0] = 1;
 		impares[1] = 3;
@@ -15,6 +16,9 @@ public class ArraySimples {
 		
 		String[] paises = {"Brasil", "Argentina", "Uruguai", "Paraguai"};
 		System.out.println(Arrays.toString(paises));
+		int posicao = Arrays.binarySearch(paises, "Russia");
+		System.out.println(posicao);
+		
 	}
 
 }
