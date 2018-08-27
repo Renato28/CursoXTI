@@ -26,6 +26,9 @@ public class ArraySimples {
 		System.out.println(impares.length);
 		System.out.println(impares[2]);
 		
+		Double[] valores = {12.35, 3456.3456};
+		System.out.println(valores[0].doubleValue());
+		
 	}
 
 }
