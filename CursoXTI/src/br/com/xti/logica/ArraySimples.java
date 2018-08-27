@@ -22,6 +22,8 @@ public class ArraySimples {
 		Arrays.sort(paises, 0, paises.length);
 		System.out.println(Arrays.toString(paises));
 		
+		System.out.println(paises[0]);
+		
 	}
 
 }
