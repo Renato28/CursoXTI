@@ -23,6 +23,19 @@ public class AutoBoxing {
 			
 			System.out.println(v);
 		}*/
+		
+		//criando uma variavel do tipo Boolean
+		Boolean v = true;
+		
+		//criando uma condicao if-else
+		if(!v) {
+			
+			System.out.println(v);	
+			
+		}else {
+			
+			System.out.println("false");
+		}
 	}
 
 }
