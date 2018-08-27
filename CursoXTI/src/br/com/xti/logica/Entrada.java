@@ -16,6 +16,7 @@ public class Entrada {
 		//System.out.println(args[0]);
 		
 		//criando a classe Scanner
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		
 		//codigo comentado
