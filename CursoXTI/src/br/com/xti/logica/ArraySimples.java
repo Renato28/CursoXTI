@@ -43,6 +43,7 @@ public class ArraySimples {
 		String[] faces = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Dama", "Valete", "Reis"};
 		String[] naipes = {"Espada", "Paus", "Copas", "Ouros"};
 		
+		Random r = new Random();
 		
 	}
 
